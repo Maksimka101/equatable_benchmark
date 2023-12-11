@@ -10,10 +10,11 @@ environment:
 dependencies:
   benchmarking: ^0.6.1
   
-  # equatable: any
   equatable:
-    path: ../equatable
-  # path: ^1.8.0
+    git: 
+      url: git@github.com:Maksimka101/equatable.git
+      # Comment out the line below to test with the master branch.
+      ref: feat/performance-improvement
 
 dev_dependencies:
   lints: ^2.1.0

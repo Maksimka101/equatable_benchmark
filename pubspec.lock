@@ -84,9 +84,11 @@ packages:
   equatable:
     dependency: "direct main"
     description:
-      path: "../equatable"
-      relative: true
-    source: path
+      path: "."
+      ref: "feat/performance-improvement"
+      resolved-ref: "62044916f5a64135d5c6b0a1f9cf2c71c4364cdf"
+      url: "git@github.com:Maksimka101/equatable.git"
+    source: git
     version: "2.0.5"
   file:
     dependency: transitive
